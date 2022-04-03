@@ -2,4 +2,5 @@
 
 hi
 
-[puzzle0](puzzle0/puzzle0.html)
+<!-- [puzzle0](puzzle0/puzzle0.html) -->
+[puzzle1](puzzle1/puzzle1.html)
