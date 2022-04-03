@@ -1,6 +1,6 @@
 # a77184566.github.io
 
-hello <https://a77184566.github.io>
+<https://a77184566.github.io>
 
 ## PuzzleScript Games
 
