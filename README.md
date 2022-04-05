@@ -10,4 +10,4 @@ hello
 
 ## p5.js
 
-* [puzzle2](puzzle2)
+* [simple_draw](simple_draw)
