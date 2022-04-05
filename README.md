@@ -9,6 +9,6 @@ hello
 <!-- [puzzle0](puzzle0/puzzle0.html) -->
 * [puzzle1](puzzle1/puzzle1.html)
 
-## p5js
+## p5.js
 
 * [puzzle2](puzzle2)
