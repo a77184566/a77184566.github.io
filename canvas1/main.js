@@ -3,7 +3,6 @@ function speak(text) {
     utterance.lang = "en-US";
     utterance.text = text;
     let synth = window.speechSynthesis;
-    synth.getVoices();
     synth.cancel();
     synth.speak(utterance);
 }
