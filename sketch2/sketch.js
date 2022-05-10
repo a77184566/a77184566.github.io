@@ -42,7 +42,7 @@ function setup() {
     speech.interrupt = true;
     speech.setLang("en-US");
 
-    button = createButton("Speech");
+    button = createButton("speech");
     button.position(windowWidth / 2 - 50, 0);
     button.size(100, 100);
     button.mousePressed(function () {
