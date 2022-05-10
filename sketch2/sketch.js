@@ -46,7 +46,6 @@ function setup() {
     button.position(windowWidth / 2 - 50, 0);
     button.size(100, 100);
     button.mousePressed(function () {
-        speech.speak("speech synthesis ready");
     });
 
     next_number();
