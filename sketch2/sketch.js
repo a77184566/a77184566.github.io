@@ -1,5 +1,4 @@
 let speech;
-let speech_loaded = false;
 
 let number = 0;
 let correct = 0;
@@ -42,18 +41,18 @@ function setup() {
     speech = new p5.Speech();
     speech.interrupt = true;
     speech.setLang("en-US");
-    speech.onLoad = function () {
-        speech_loaded = true;
-    };
+
+    button = createButton("Speech");
+    button.position(windowWidth / 2 - 50, 0);
+    button.size(100, 100);
+    button.mousePressed(function () {
+        speech.speak("speech synthesis ready");
+    });
 
     next_number();
 }
 
 function draw() {
-    if (!speech_loaded) {
-        return;
-    }
-
     noStroke();
     fill(0);
     rect(0, 0, windowWidth / 2, windowHeight / 2);
