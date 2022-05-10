@@ -42,10 +42,13 @@ function setup() {
     speech.interrupt = true;
     speech.setLang("en-US");
 
-    button = createButton("speech");
+    button = createButton("Speech");
     button.position(windowWidth / 2 - 50, 0);
     button.size(100, 100);
     button.mousePressed(function () {
+        speech = new p5.Speech();
+        speech.interrupt = true;
+        speech.setLang("en-US");
     });
 
     next_number();
